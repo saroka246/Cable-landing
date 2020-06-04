@@ -1,0 +1,10 @@
+$(document).ready(function(){
+	$('.slider').slick({
+        arrow:true,
+         dots:true                              
+    });
+    $('.slider-mini').slick({
+     slidesToShow:4,
+        slidesToScroll:1,
+    });
+});
